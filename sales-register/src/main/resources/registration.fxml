@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.salesregister.controller.RegistrationController">
+   <children>
+      <TextField fx:id="login" layoutX="288.0" layoutY="131.0" />
+      <TextField fx:id="password" layoutX="288.0" layoutY="192.0" />
+      <Text layoutX="237.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="221.0" layoutY="327.0" mnemonicParsing="false" onAction="#register" text="Зарегистрироваться">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#toSignIn" text="Войти" />
+      <Text layoutX="219.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

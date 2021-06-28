@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: 'update'
+    properties:
+      hibernate:
+        format-sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/operations3?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: mysql
+    password: mysql
