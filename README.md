@@ -33,3 +33,7 @@
 -В папке найти файл "sales-register.exe"
 
 -Запустить данный файл.
+https://github.com/NadenkaTropanova/Student-Counter/blob/Задача-ЕГЭ13754-Логирование/1.png
+https://github.com/NadenkaTropanova/Student-Counter/blob/Задача-ЕГЭ13754-Логирование/2.png
+https://github.com/NadenkaTropanova/Student-Counter/blob/Задача-ЕГЭ13754-Логирование/3.png
+https://github.com/NadenkaTropanova/Student-Counter/blob/Задача-ЕГЭ13754-Логирование/4.png
